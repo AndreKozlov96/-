@@ -50,7 +50,6 @@ public class Execution {
     }
 
     private static void printPhoneBook(){
-        //        Comparator phoneQuantity = new PhoneNumberQuantityComparator();
         List<Map.Entry<String, ArrayList<String>>> entryList = new ArrayList<>(phoneBook.entrySet());
         List<Map.Entry<String, ArrayList<String>>> printBook = new ArrayList<>();
         ArrayList<Integer> phoneQuantity = new ArrayList<>(); //лист для хранения значений количества телефонов у абонентов
@@ -68,9 +67,6 @@ public class Execution {
                                 // -->(соответствует индексу абонента в MAP.Entry entryList с максимальным количенством телефонов)
             System.out.println(entryList.get(index));
             phoneQuantity.set(index, 0);
-
-            //printBook.add(entryList.get(index));//добавляем в printBook (в итоге получается лист с абонентами, расположенными по убыванию количества телефонов)
-            //phoneQuantity.set(index, 0);//обнуляем макисмальный элемент в листе phoneQuantity
 
             //вывод листа для промежуточной проверки его состояния
             //System.out.println(phoneQuantity);
