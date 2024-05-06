@@ -64,7 +64,7 @@ public class Execution {
 
         for (int i = 0; i < phoneQuantity.size(); i++) {
             index = phoneQuantity.indexOf(Collections.max(phoneQuantity));//находим индекс максимального элемента-->
-                                // -->(соответствует индексу абонента в MAP.Entry entryList с максимальным количенством телефонов)
+                                // -->(соответствует индексу абонента в MAP.Entry entryList с максимальным количеством телефонов)
             System.out.println(entryList.get(index));
             phoneQuantity.set(index, 0);
 
