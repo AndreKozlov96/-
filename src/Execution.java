@@ -72,9 +72,6 @@ public class Execution {
             //System.out.println(phoneQuantity);
         }
         System.out.println("");
-
-        //System.out.println(printBook);
-
     }
 }
 
